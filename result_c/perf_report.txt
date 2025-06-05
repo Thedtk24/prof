@@ -3,20 +3,19 @@
 #
 # Total Lost Samples: 0
 #
-# Samples: 18  of event 'cycles:P'
-# Event count (approx.): 6540491
+# Samples: 321  of event 'task-clock:ppp'
+# Event count (approx.): 80250000
 #
-# Overhead  Command  Shared Object         Symbol                
-# ........  .......  ....................  ......................
+# Overhead  Command   Shared Object      Symbol                      
+# ........  ........  .................  ............................
 #
-    64.52%  hello_c  [unknown]             [k] 0xffffffff856cea69
-    11.06%  hello_c  [unknown]             [k] 0xffffffff86819e97
-     9.12%  hello_c  [unknown]             [k] 0xffffffff859f1f15
-     5.46%  hello_c  ld-linux-x86-64.so.2  [.] handle_amd
-     5.27%  hello_c  [unknown]             [k] 0xffffffff86b04109
-     2.76%  hello_c  [unknown]             [k] 0xffffffff856ddd05
-     1.80%  hello_c  [unknown]             [k] 0xffffffff856cec56
-     0.00%  perf-ex  [unknown]             [k] 0xffffffff859bfd45
+    36.45%  script_c  script_c           [.] is_prime
+    26.79%  script_c  script_c           [.] sqrt@plt
+    24.61%  script_c  libm.so.6          [.] __sqrt_finite@GLIBC_2.17
+    11.21%  script_c  libm.so.6          [.] __sqrt
+     0.31%  script_c  [kernel.kallsyms]  [k] __tlb_remove_page_size
+     0.31%  script_c  [kernel.kallsyms]  [k] handle_softirqs
+     0.31%  script_c  script_c           [.] sum_of_squares_of_primes
 
 
 #

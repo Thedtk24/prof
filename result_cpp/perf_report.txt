@@ -3,24 +3,21 @@
 #
 # Total Lost Samples: 0
 #
-# Samples: 38  of event 'cycles:P'
-# Event count (approx.): 26303541
+# Samples: 360  of event 'task-clock:ppp'
+# Event count (approx.): 90000000
 #
-# Overhead  Command    Shared Object         Symbol                
-# ........  .........  ....................  ......................
+# Overhead  Command     Shared Object          Symbol                                                                                         
+# ........  ..........  .....................  ...............................................................................................
 #
-    62.53%  hello_cpp  [unknown]             [k] 0xffffffff856cea69
-     7.23%  hello_cpp  ld-linux-x86-64.so.2  [.] do_lookup_x
-     6.51%  hello_cpp  [unknown]             [k] 0xffffffff86b04109
-     4.69%  hello_cpp  ld-linux-x86-64.so.2  [.] dl_main
-     4.64%  hello_cpp  ld-linux-x86-64.so.2  [.] handle_amd
-     4.47%  hello_cpp  [unknown]             [k] 0xffffffff85af1413
-     3.48%  hello_cpp  [unknown]             [k] 0xffffffff856173f3
-     2.70%  hello_cpp  [unknown]             [k] 0xffffffff86a00f70
-     1.43%  hello_cpp  [unknown]             [k] 0xffffffff856cec56
-     1.18%  hello_cpp  [unknown]             [k] 0xffffffffc05b7ed7
-     1.13%  hello_cpp  [unknown]             [k] 0xffffffff85b16606
-     0.00%  hello_cpp  [unknown]             [k] 0xffffffff85a8ff76
+    24.17%  script_cpp  script_cpp             [.] sqrt@plt
+    23.61%  script_cpp  script_cpp             [.] __gnu_cxx::__enable_if<std::__is_integer<int>::__value, double>::__type std::sqrt<int>(int)
+    22.50%  script_cpp  script_cpp             [.] is_prime(int)
+    19.72%  script_cpp  libm.so.6              [.] __sqrt_finite@GLIBC_2.17
+     8.06%  script_cpp  libm.so.6              [.] __sqrt
+     1.11%  script_cpp  script_cpp             [.] sum_of_squares_of_primes(int)
+     0.28%  script_cpp  [kernel.kallsyms]      [k] alloc_pages_mpol
+     0.28%  script_cpp  [kernel.kallsyms]      [k] vma_interval_tree_insert
+     0.28%  script_cpp  ld-linux-aarch64.so.1  [.] do_lookup_x
 
 
 #

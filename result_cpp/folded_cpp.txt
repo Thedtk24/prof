@@ -1,0 +1,4 @@
+script_cpp;_start;__libc_start_main@@GLIBC_2.34;__libc_start_call_main;main;sum_of_squares_of_primes;is_prime 10101010
+script_cpp;_start;__libc_start_main@@GLIBC_2.34;__libc_start_call_main;main;sum_of_squares_of_primes;is_prime;__gnu_cxx::__enable_if<std::__is_integer<int>::__value, double>::__type std::sqrt<int> 40404040
+script_cpp;_start;__libc_start_main@@GLIBC_2.34;__libc_start_call_main;main;sum_of_squares_of_primes;is_prime;__gnu_cxx::__enable_if<std::__is_integer<int>::__value, double>::__type std::sqrt<int>;__sqrt_finite@GLIBC_2.17 10101010
+script_cpp;_start;__libc_start_main@@GLIBC_2.34;__libc_start_call_main;main;sum_of_squares_of_primes;is_prime;__gnu_cxx::__enable_if<std::__is_integer<int>::__value, double>::__type std::sqrt<int>;sqrt@plt 20202020

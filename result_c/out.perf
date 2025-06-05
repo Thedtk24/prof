@@ -1,0 +1,62 @@
+script_c   38790  4975.798564:   10101010 task-clock:ppp: 
+	    ac1ec89b0684 sqrt@plt+0x4 (/home/thed/Documents/prof/bin/script_c)
+	    ac1ec89b087b is_prime+0xa3 (/home/thed/Documents/prof/bin/script_c)
+	    ac1ec89b08b8 sum_of_squares_of_primes+0x24 (/home/thed/Documents/prof/bin/script_c)
+	    ac1ec89b092c main+0x24 (/home/thed/Documents/prof/bin/script_c)
+	    fe27e5fa84c4 __libc_start_call_main+0x74 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    fe27e5fa8598 __libc_start_main@@GLIBC_2.34+0x98 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ac1ec89b06f0 _start+0x30 (/home/thed/Documents/prof/bin/script_c)
+
+script_c   38790  4975.808678:   10101010 task-clock:ppp: 
+	    fe27e617598c __sqrt_finite@GLIBC_2.17+0xc (/usr/lib/aarch64-linux-gnu/libm.so.6)
+	    ac1ec89b087c is_prime+0xa4 (/home/thed/Documents/prof/bin/script_c)
+	    ac1ec89b08b8 sum_of_squares_of_primes+0x24 (/home/thed/Documents/prof/bin/script_c)
+	    ac1ec89b092c main+0x24 (/home/thed/Documents/prof/bin/script_c)
+	    fe27e5fa84c4 __libc_start_call_main+0x74 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    fe27e5fa8598 __libc_start_main@@GLIBC_2.34+0x98 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ac1ec89b06f0 _start+0x30 (/home/thed/Documents/prof/bin/script_c)
+
+script_c   38790  4975.818766:   10101010 task-clock:ppp: 
+	    ac1ec89b0680 sqrt@plt+0x0 (/home/thed/Documents/prof/bin/script_c)
+	    ac1ec89b087b is_prime+0xa3 (/home/thed/Documents/prof/bin/script_c)
+	    ac1ec89b08b8 sum_of_squares_of_primes+0x24 (/home/thed/Documents/prof/bin/script_c)
+	    ac1ec89b092c main+0x24 (/home/thed/Documents/prof/bin/script_c)
+	    fe27e5fa84c4 __libc_start_call_main+0x74 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    fe27e5fa8598 __libc_start_main@@GLIBC_2.34+0x98 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ac1ec89b06f0 _start+0x30 (/home/thed/Documents/prof/bin/script_c)
+
+script_c   38790  4975.828866:   10101010 task-clock:ppp: 
+	    ac1ec89b087c is_prime+0xa4 (/home/thed/Documents/prof/bin/script_c)
+	    ac1ec89b08b8 sum_of_squares_of_primes+0x24 (/home/thed/Documents/prof/bin/script_c)
+	    ac1ec89b092c main+0x24 (/home/thed/Documents/prof/bin/script_c)
+	    fe27e5fa84c4 __libc_start_call_main+0x74 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    fe27e5fa8598 __libc_start_main@@GLIBC_2.34+0x98 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ac1ec89b06f0 _start+0x30 (/home/thed/Documents/prof/bin/script_c)
+
+script_c   38790  4975.838970:   10101010 task-clock:ppp: 
+	    fe27e617598c __sqrt_finite@GLIBC_2.17+0xc (/usr/lib/aarch64-linux-gnu/libm.so.6)
+	    ac1ec89b087c is_prime+0xa4 (/home/thed/Documents/prof/bin/script_c)
+	    ac1ec89b08b8 sum_of_squares_of_primes+0x24 (/home/thed/Documents/prof/bin/script_c)
+	    ac1ec89b092c main+0x24 (/home/thed/Documents/prof/bin/script_c)
+	    fe27e5fa84c4 __libc_start_call_main+0x74 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    fe27e5fa8598 __libc_start_main@@GLIBC_2.34+0x98 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ac1ec89b06f0 _start+0x30 (/home/thed/Documents/prof/bin/script_c)
+
+script_c   38790  4975.849068:   10101010 task-clock:ppp: 
+	    fe27e617598c __sqrt_finite@GLIBC_2.17+0xc (/usr/lib/aarch64-linux-gnu/libm.so.6)
+	    ac1ec89b087c is_prime+0xa4 (/home/thed/Documents/prof/bin/script_c)
+	    ac1ec89b08b8 sum_of_squares_of_primes+0x24 (/home/thed/Documents/prof/bin/script_c)
+	    ac1ec89b092c main+0x24 (/home/thed/Documents/prof/bin/script_c)
+	    fe27e5fa84c4 __libc_start_call_main+0x74 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    fe27e5fa8598 __libc_start_main@@GLIBC_2.34+0x98 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ac1ec89b06f0 _start+0x30 (/home/thed/Documents/prof/bin/script_c)
+
+script_c   38790  4975.859170:   10101010 task-clock:ppp: 
+	    ac1ec89b0688 sqrt@plt+0x8 (/home/thed/Documents/prof/bin/script_c)
+	    ac1ec89b087b is_prime+0xa3 (/home/thed/Documents/prof/bin/script_c)
+	    ac1ec89b08b8 sum_of_squares_of_primes+0x24 (/home/thed/Documents/prof/bin/script_c)
+	    ac1ec89b092c main+0x24 (/home/thed/Documents/prof/bin/script_c)
+	    fe27e5fa84c4 __libc_start_call_main+0x74 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    fe27e5fa8598 __libc_start_main@@GLIBC_2.34+0x98 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ac1ec89b06f0 _start+0x30 (/home/thed/Documents/prof/bin/script_c)
+

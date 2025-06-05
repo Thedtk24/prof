@@ -1,0 +1,74 @@
+script_cpp   40453  5228.873974:   10101010 task-clock:ppp: 
+	    b5d6c6990e70 __gnu_cxx::__enable_if<std::__is_integer<int>::__value, double>::__type std::sqrt<int>(int)+0x18 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990bb8 is_prime(int)+0xa0 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990c04 sum_of_squares_of_primes(int)+0x24 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990c94 main+0x40 (/home/thed/Documents/prof/bin/script_cpp)
+	    f6d0d39c84c4 __libc_start_call_main+0x74 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    f6d0d39c8598 __libc_start_main@@GLIBC_2.34+0x98 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    b5d6c6990a30 _start+0x30 (/home/thed/Documents/prof/bin/script_cpp)
+
+script_cpp   40453  5228.884070:   10101010 task-clock:ppp: 
+	    b5d6c6990e70 __gnu_cxx::__enable_if<std::__is_integer<int>::__value, double>::__type std::sqrt<int>(int)+0x18 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990bb8 is_prime(int)+0xa0 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990c04 sum_of_squares_of_primes(int)+0x24 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990c94 main+0x40 (/home/thed/Documents/prof/bin/script_cpp)
+	    f6d0d39c84c4 __libc_start_call_main+0x74 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    f6d0d39c8598 __libc_start_main@@GLIBC_2.34+0x98 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    b5d6c6990a30 _start+0x30 (/home/thed/Documents/prof/bin/script_cpp)
+
+script_cpp   40453  5228.894172:   10101010 task-clock:ppp: 
+	    b5d6c69909e4 sqrt@plt+0x4 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990e6f __gnu_cxx::__enable_if<std::__is_integer<int>::__value, double>::__type std::sqrt<int>(int)+0x17 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990bb8 is_prime(int)+0xa0 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990c04 sum_of_squares_of_primes(int)+0x24 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990c94 main+0x40 (/home/thed/Documents/prof/bin/script_cpp)
+	    f6d0d39c84c4 __libc_start_call_main+0x74 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    f6d0d39c8598 __libc_start_main@@GLIBC_2.34+0x98 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    b5d6c6990a30 _start+0x30 (/home/thed/Documents/prof/bin/script_cpp)
+
+script_cpp   40453  5228.904272:   10101010 task-clock:ppp: 
+	    b5d6c6990e68 __gnu_cxx::__enable_if<std::__is_integer<int>::__value, double>::__type std::sqrt<int>(int)+0x10 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990bb8 is_prime(int)+0xa0 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990c04 sum_of_squares_of_primes(int)+0x24 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990c94 main+0x40 (/home/thed/Documents/prof/bin/script_cpp)
+	    f6d0d39c84c4 __libc_start_call_main+0x74 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    f6d0d39c8598 __libc_start_main@@GLIBC_2.34+0x98 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    b5d6c6990a30 _start+0x30 (/home/thed/Documents/prof/bin/script_cpp)
+
+script_cpp   40453  5228.914373:   10101010 task-clock:ppp: 
+	    f6d0d3b9598c __sqrt_finite@GLIBC_2.17+0xc (/usr/lib/aarch64-linux-gnu/libm.so.6)
+	    b5d6c6990e70 __gnu_cxx::__enable_if<std::__is_integer<int>::__value, double>::__type std::sqrt<int>(int)+0x18 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990bb8 is_prime(int)+0xa0 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990c04 sum_of_squares_of_primes(int)+0x24 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990c94 main+0x40 (/home/thed/Documents/prof/bin/script_cpp)
+	    f6d0d39c84c4 __libc_start_call_main+0x74 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    f6d0d39c8598 __libc_start_main@@GLIBC_2.34+0x98 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    b5d6c6990a30 _start+0x30 (/home/thed/Documents/prof/bin/script_cpp)
+
+script_cpp   40453  5228.924475:   10101010 task-clock:ppp: 
+	    b5d6c6990bb8 is_prime(int)+0xa0 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990c04 sum_of_squares_of_primes(int)+0x24 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990c94 main+0x40 (/home/thed/Documents/prof/bin/script_cpp)
+	    f6d0d39c84c4 __libc_start_call_main+0x74 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    f6d0d39c8598 __libc_start_main@@GLIBC_2.34+0x98 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    b5d6c6990a30 _start+0x30 (/home/thed/Documents/prof/bin/script_cpp)
+
+script_cpp   40453  5228.934576:   10101010 task-clock:ppp: 
+	    b5d6c69909e4 sqrt@plt+0x4 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990e6f __gnu_cxx::__enable_if<std::__is_integer<int>::__value, double>::__type std::sqrt<int>(int)+0x17 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990bb8 is_prime(int)+0xa0 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990c04 sum_of_squares_of_primes(int)+0x24 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990c94 main+0x40 (/home/thed/Documents/prof/bin/script_cpp)
+	    f6d0d39c84c4 __libc_start_call_main+0x74 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    f6d0d39c8598 __libc_start_main@@GLIBC_2.34+0x98 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    b5d6c6990a30 _start+0x30 (/home/thed/Documents/prof/bin/script_cpp)
+
+script_cpp   40453  5228.944677:   10101010 task-clock:ppp: 
+	    b5d6c6990e70 __gnu_cxx::__enable_if<std::__is_integer<int>::__value, double>::__type std::sqrt<int>(int)+0x18 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990bb8 is_prime(int)+0xa0 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990c04 sum_of_squares_of_primes(int)+0x24 (/home/thed/Documents/prof/bin/script_cpp)
+	    b5d6c6990c94 main+0x40 (/home/thed/Documents/prof/bin/script_cpp)
+	    f6d0d39c84c4 __libc_start_call_main+0x74 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    f6d0d39c8598 __libc_start_main@@GLIBC_2.34+0x98 (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    b5d6c6990a30 _start+0x30 (/home/thed/Documents/prof/bin/script_cpp)
+
