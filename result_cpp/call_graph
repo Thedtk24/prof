@@ -1,0 +1,34 @@
+digraph "callgraph" {
+  Fbe05a5f384b0 [label="__gnu_cxx::__enable_if<std::__...\n1 524 099 054"];
+  Fbe05a5f38ce0 [label="sqrt\n431 327 754"];
+  Fbe05a5f394e0 [label="main\n1 581 032 488"];
+  Fbe05a5f39cd0 [label="std::chrono::_V2::system_clock...\n1 581 020 952"];
+  Fbe05a5f3a430 [label="(below main)\n1 581 032 761"];
+  Fbe05a5f3acd0 [label="__libc_start_main@@GLIBC_2.34\n1 581 032 745"];
+  Fbe05a5f514b0 [label="sum_of_squares_of_primes(int)\n1 581 020 180"];
+  Fbe05a5f51910 [label="sum_of_squares_of_primes(int)'...\n1 581 001 108"];
+  Fbe05a5f52200 [label="is_prime(int)\n1 581 001 102"];
+  Fbe05a5f58210 [label="<cycle 15>\n1 581 001 071"];
+  Fbe05a6017900 [label="_dl_start\n1 582 570 175"];
+  Fbe05a6018c80 [label="_dl_init\n1 581 122 621"];
+  Fbe05a60eb2f0 [label="(below main)\n1 582 570 180"];
+  Fbe05a61134b0 [label="(below main)\n1 581 032 552"];
+  Fbe05a614b080 [label="__libc_start_main@@GLIBC_2.34'...\n1 581 032 595"];
+  Fbe05a6155610 [label="__sqrt_finite@GLIBC_2.17\n165 895 290"];
+  Fbe05a5f384b0 -> Fbe05a5f38ce0 [weight=2,label="431 327 754 (33 179 058x)"];
+  Fbe05a5f38ce0 -> Fbe05a6155610 [weight=2,label="165 895 290 (33 179 058x)"];
+  Fbe05a5f394e0 -> Fbe05a5f39cd0 [weight=3,label="1 581 020 952 (1x)"];
+  Fbe05a5f39cd0 -> Fbe05a5f514b0 [weight=3,label="1 581 020 180 (1x)"];
+  Fbe05a5f3a430 -> Fbe05a5f3acd0 [weight=3,label="1 581 032 745 (1x)"];
+  Fbe05a5f3acd0 -> Fbe05a614b080 [weight=3,label="1 581 032 595 (1x)"];
+  Fbe05a5f514b0 -> Fbe05a5f51910 [weight=3,label="1 581 001 108 (1x)"];
+  Fbe05a5f51910 -> Fbe05a5f52200 [weight=3,label="1 581 001 102 (1x)"];
+  Fbe05a5f52200 -> Fbe05a5f58210 [weight=3,label="1 581 001 071 (2x)"];
+  Fbe05a5f58210 -> Fbe05a5f384b0 [weight=3,label="1 524 099 054 (0x)"];
+  Fbe05a6017900 -> Fbe05a6018c80 [weight=3,label="1 581 122 621 (1x)"];
+  Fbe05a6018c80 -> Fbe05a5f3a430 [weight=3,label="1 581 032 761 (1x)"];
+  Fbe05a60eb2f0 -> Fbe05a6017900 [weight=3,label="1 582 570 175 (1x)"];
+  Fbe05a61134b0 -> Fbe05a5f394e0 [weight=3,label="1 581 032 488 (1x)"];
+  Fbe05a614b080 -> Fbe05a61134b0 [weight=3,label="1 581 032 552 (1x)"];
+  Fbe05a614b080 -> Fbe05a614b080 [weight=3,label="1 581 032 574 (1x)"];
+}

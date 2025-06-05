@@ -1,0 +1,35 @@
+digraph "callgraph" {
+  Fad4d2734e250 [label="(below main)\n1 210 539 875"];
+  Fad4d2734f650 [label="main\n1 210 539 811"];
+  Fad4d2735a8e0 [label="__cxa_atexit\n1 210 540 049"];
+  Fad4d2735ad70 [label="__internal_atexit\n1 210 540 043"];
+  Fad4d273742f0 [label="__libc_start_main@@GLIBC_2.34'...\n1 210 539 918"];
+  Fad4d273c4590 [label="__libc_start_main@@GLIBC_2.34\n1 210 540 065"];
+  Fad4d273f7bb0 [label="_dl_init\n1 210 540 657"];
+  Fad4d273f86e0 [label="(below main)\n1 210 540 081"];
+  Fad4d27405f40 [label="(below main)\n1 210 680 608"];
+  Fad4d27406380 [label="_dl_start\n1 210 680 603"];
+  Fad4d27433b80 [label="__sqrt_finite@GLIBC_2.17\n168 395 285"];
+  Fad4d27434430 [label="sqrt\n437 827 741"];
+  Fad4d27435f20 [label="sum_of_squares_of_primes\n1 210 537 252"];
+  Fad4d27436610 [label="is_prime\n1 210 531 475"];
+  Fad4d27436e80 [label="is_prime'2\n1 210 531 444"];
+  Fad4d27437590 [label="sum_of_squares_of_primes'2\n1 210 531 481"];
+  Fad4d2734e250 -> Fad4d2734f650 [weight=3,label="1 210 539 811 (1x)"];
+  Fad4d2734f650 -> Fad4d27435f20 [weight=3,label="1 210 537 252 (1x)"];
+  Fad4d2735a8e0 -> Fad4d2735ad70 [weight=3,label="1 210 540 043 (1x)"];
+  Fad4d2735ad70 -> Fad4d273742f0 [weight=3,label="1 210 539 918 (1x)"];
+  Fad4d273742f0 -> Fad4d2734e250 [weight=3,label="1 210 539 875 (1x)"];
+  Fad4d273742f0 -> Fad4d273742f0 [weight=3,label="1 210 539 897 (1x)"];
+  Fad4d273c4590 -> Fad4d2735a8e0 [weight=3,label="1 210 540 049 (1x)"];
+  Fad4d273f7bb0 -> Fad4d273f86e0 [weight=3,label="1 210 540 081 (1x)"];
+  Fad4d273f86e0 -> Fad4d273c4590 [weight=3,label="1 210 540 065 (1x)"];
+  Fad4d27405f40 -> Fad4d27406380 [weight=3,label="1 210 680 603 (1x)"];
+  Fad4d27406380 -> Fad4d273f7bb0 [weight=3,label="1 210 540 657 (1x)"];
+  Fad4d27434430 -> Fad4d27433b80 [weight=2,label="168 395 285 (33 679 057x)"];
+  Fad4d27435f20 -> Fad4d27437590 [weight=3,label="1 210 531 481 (1x)"];
+  Fad4d27436610 -> Fad4d27436e80 [weight=3,label="1 210 531 444 (2x)"];
+  Fad4d27436e80 -> Fad4d27434430 [weight=2,label="437 827 741 (33 679 057x)"];
+  Fad4d27436e80 -> Fad4d27436e80 [weight=3,label="703 694 723 532 896 (2 421 497x)"];
+  Fad4d27437590 -> Fad4d27436610 [weight=3,label="1 210 531 475 (1x)"];
+}
