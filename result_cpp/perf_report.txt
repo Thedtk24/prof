@@ -1,0 +1,28 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 38  of event 'cycles:P'
+# Event count (approx.): 26303541
+#
+# Overhead  Command    Shared Object         Symbol                
+# ........  .........  ....................  ......................
+#
+    62.53%  hello_cpp  [unknown]             [k] 0xffffffff856cea69
+     7.23%  hello_cpp  ld-linux-x86-64.so.2  [.] do_lookup_x
+     6.51%  hello_cpp  [unknown]             [k] 0xffffffff86b04109
+     4.69%  hello_cpp  ld-linux-x86-64.so.2  [.] dl_main
+     4.64%  hello_cpp  ld-linux-x86-64.so.2  [.] handle_amd
+     4.47%  hello_cpp  [unknown]             [k] 0xffffffff85af1413
+     3.48%  hello_cpp  [unknown]             [k] 0xffffffff856173f3
+     2.70%  hello_cpp  [unknown]             [k] 0xffffffff86a00f70
+     1.43%  hello_cpp  [unknown]             [k] 0xffffffff856cec56
+     1.18%  hello_cpp  [unknown]             [k] 0xffffffffc05b7ed7
+     1.13%  hello_cpp  [unknown]             [k] 0xffffffff85b16606
+     0.00%  hello_cpp  [unknown]             [k] 0xffffffff85a8ff76
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#
